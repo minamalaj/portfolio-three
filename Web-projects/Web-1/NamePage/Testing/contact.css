@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(34, 33, 33); 
+  }
+  
+  .inner {
+    width: 550px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .hexagon {
+      width: 100px;
+      height: 55px;
+      background: #15818C;
+      position: relative;
+     display: inline-block;
+     margin: 40px;
+  }
+  .hexagon:before {
+      content: "";
+      position: absolute;
+      top: -25px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 25px solid #15818C;
+  }
+  .hexagon:after {
+      content: "";
+      position: absolute;
+      bottom: -25px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 25px solid #15818C;
+  }
+  
+  .fa {
+    font-size: 40pt;
+    color: #fAFAFA;
+  }
+  
+  .fa-twitter {
+    margin: auto 25px;
+  }
+  
+  .fa-linkedin {
+    margin: auto 27px;  
+  }
