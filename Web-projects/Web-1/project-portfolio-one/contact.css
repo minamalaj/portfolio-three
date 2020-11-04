@@ -5,34 +5,20 @@ body {
   text-align:center;
   font-family: 'Lato', sans-serif;
   }
-  
-
-  .contact { 
-    /* position: fixed;  */
-  }
 
 .contact-block { 
-  /* position: relative;  */
   height: 0.3rem; 
   width: 40.5rem; 
   background: #b32424;
   margin-left:400px;  
   align-items: center;
-  /* border-style: ; */
 }
-/* .title-under { 
-  margin-left: 780px;
-  height: 0.25rem; 
-  width: 12rem; 
-  background: rgb(107, 172, 46)
-} */
 
 
 h1 { 
   padding-top: 80px; 
   font-size: 60px; 
   color: #b32424;
-  /* margin-left: 10px;  */
   letter-spacing: 8px;
 }
 
@@ -89,9 +75,6 @@ h1 {
     background:#fff;
     visibility:hidden;
     opacity:0;
-    /* -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
     transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   

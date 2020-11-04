@@ -17,7 +17,6 @@ body{
 }
 
 .text-wrapper { 
-  /* left: 60px;  */
   margin-top: 500px; 
   margin-left: 100px; 
 
@@ -35,14 +34,6 @@ body{
 
 div #profile-pic { 
   border-radius: 45%;
-}
-
-div.foo{
-  /* margin-left: 130px;
-  top: 20px;  */
-  /* width: 90%; */
-  /* margin: 0 auto; */
-  /* text-align: center; */
 }
 
 .letter{
