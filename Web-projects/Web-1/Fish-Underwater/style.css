@@ -33,17 +33,18 @@ body {
     z-index: 2;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    right: 0px; 
+    /* align-items: center;
+    justify-content: center; */
     position: absolute;
     perspective: 1000px;
     transition: 0.3s ease;
     /* top: 200px; */
   }
 
-.fish-container > img { 
+/* .fish-container > img { 
     transform: scale(0.5, 0.5);
-}
+} */
 
 /* .fish-container > img { 
     transition: 2s;
@@ -55,14 +56,24 @@ body {
     transform: translateX(400px) rotate(360deg)
 }
 
-.fish-container > img { 
+/* .fish-container > img { 
     transition: 5s;
     transform: translateX(-200px) scale(0.5, 0.5);
-}
+} */
 
 
 .bubbles-container > img { 
     /* top: 130px; */
     transition: 9s;
     transform: translateY(-600px) scale(0.9, 0.9)
+}
+
+.fish-container > img { 
+    animation-name: swim; 
+   animation-duration: 4s; 
+}
+
+@keyframes swim { 
+    from {transform: translateX(0)}
+    to {transform: translateX(-650px)}
 }
