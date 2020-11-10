@@ -1,0 +1,37 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.clearfix:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
+}
+
+h1 { 
+    color: blue
+}
+
+.container { 
+    width: 1140px; 
+    margin: 20px auto 0 auto; 
+}
+
+.blog-post { 
+    background-color: coral;
+    width: 75%;
+    float: left;
+    padding-right: 30px; 
+}
+
+.other { 
+    width: 25%;
+    float: left; 
+}
+
+.author { 
+    background-color: cornflowerblue;
+    border-top: 3px solid grey; 
+}
